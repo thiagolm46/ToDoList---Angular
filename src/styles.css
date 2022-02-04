@@ -1,1 +1,98 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #3032ae;
+    background: linear-gradient(60deg,rgb(25, 2, 199) 0% , rgb(25, 200, 235) 100%);
+}
+
+.title{
+    font-family: 'Moon Dance',sans-serif;
+    color: #fff;
+    font-size: 5em;
+    text-shadow: 3px 5px #000;
+}
+
+.add-btn{
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: #000;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: 100;
+    padding-left: 50px ;
+    padding-right: 50px;
+
+}
+
+ul{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 4px 14px #000
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-style: italic;
+    padding: 15px;
+    margin: 10px;
+    border: solid;
+    border-radius: 30px;
+}
+
+.done{
+    background-color: green;
+    color: #fff;
+}
+
+li > button{
+    border: none;
+    background-color: #fff;
+    font-size: 1em;
+    opacity: 0.6;
+    transition: opacity 1s;
+}
+
+li > button:hover{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+button{
+    cursor: pointer;
+}
+
+.input-form{
+    background: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 3px 4px 14px #000
+}
+
+input{
+    width: 100%;
+    border-radius: inherit;
+    line-height: 50px;
+    text-indent: 10px;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+#toDoInsert{
+    margin: 5px
+}
